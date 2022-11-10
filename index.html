@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>NFTScoring - Iterative Design</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>NFTScoring - Iterative Design</h1>
+							<h3 class="major">Designing a mobile interface for NFTScoring</h2>
+							<ul class="actions stacked">
+								<li><a href="#background" class="button big wide smooth-scroll-middle">Background</a></li>
+								<li><a href="#sketches" class="button big wide smooth-scroll-middle">Sketches</a></li>
+								<li><a href="#wireframes" class="button big wide smooth-scroll-middle">Wireframes</a></li>
+								<li><a href="#crit" class="button big wide smooth-scroll-middle">Critique</a></li>
+								<li><a href="#user" class="button big wide smooth-scroll-middle">User Testing</a></li>
+								<li><a href="#final" class="button big wide smooth-scroll-middle">Final Version</a></li>
+
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/mockup.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="second">
+						<div class="content">
+							<h2 id="background">Background:</h2>
+							<p>NFTScoring is the place for you to discover, analyze and trade NFTs, giving you the superpowers to understand the NFT market in any given moment, make the best decisions, and take faster actions. We designed a mobile interface to help experienced NFT collectors more easily find investment data. Our interface helps individuals with significant NFT experience make better decisions.</p>
+							<ul class="actions stacked">
+								<li><a id="background" href="#sketches" class="button smooth-scroll-middle">Next</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/phone.png" alt="" />
+						</div>
+					</section>
+					<section class="wrapper style1 align-left"> 
+
+						<div class="inner">
+							<h2 >Sketches</h2>
+							<p>We developed the following sketches to experiment with different design ideas. We iterated across layout, emphasis, functionality, and platform.</p>
+							<h3 id="sketches" ><b>Design 1</b></h3> This design is the most simplistic and makes frequent use of grids to layout images. Instead of a navbar, a hamburger menu bar is used so that other elements can take up the entire screen; this is useful to allow more extensive display of a variety of NFTs. It has 5 screens (ordered from left to right):
+							<br>1. Home 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. 4 main trending NFTs so users can easily click on it
+							<br>2. Listings Of NFTs to buy  
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Laid out in a grid with just the image, but when users click on it they can view more information
+							<br>3. Individual NFT purchase page 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. This is zoomed into the individual NFT and gives more information about prices, and statistics about its trends
+							<br>4. Successful Purchase 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Confirmation page to inform users that their purchase was successful. This takes up the entire screen so text is clearly legible 
+							<br>5. Personal user profile  
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Info tab at the top to give users a rundown of their personal profile statistics (number of trades, number of NFTs in collection etc.) 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Collection display
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. Wishlist that users can scroll right
+
+							   <br>
+							   <br>
+							   <!--  <div class="image fit ">
+								<img src="images/larry.png" alt="" /> -->
+								<div class="gallery style1 medium lightbox onscroll-fade-in">
+
+								<article>
+									<a href="images/sketch1.jpg" class="image fit ">
+										<img src="images/sketch1.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 1</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							
+							<br> <h3><b>Design 2</b></h3>  This design is more modern and stacks some components rather than laying it out in a grid. It has a navbar at the bottom to possibly allow for smoother app navigation.
+							<br>1. Splash screen
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Increases company branding/recognition
+							<br>2. Login screen
+							<br>3. Home screen
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Has a filter option
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Statistics laid out to the right of NFT collection images
+							<br>4. Individual NFT collection 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Only images, with sell button
+							<br>5. Explore page
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Search bar added for easier identification
+							<br>6. Buy page
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Stats laid out right away rather than users having to click on it to view
+							<br>7. NFT collection page 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. More detailed statistics and description, and users have to click view in order to view specific individual NFT
+							<br>
+							<div class="gallery style1 medium lightbox onscroll-fade-in">
+
+								<article>
+									<a href="images/sketch2.jpg" class="image fit ">
+										<img src="images/sketch2.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 2 (1/2)</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/sketch25.jpg" class="image fit ">
+										<img src="images/sketch25.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 2 (2/2)</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<br> <h3><b>Design 3</b></h3>These sketches are designed for desktop use. We wanted to explore the ways that multiple elements could be incorporated into one screen, rather than only looking at the capabilities of a mobile app. We figured that most NFT trades take place on desktops, and users may prefer to use a bigger interface to analyze and compare trends.
+							<br>1. Home dashboard
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Navbar located on the left as there is a lot of vertical space to stack various buttons, and this makes space for components on the right side
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. Trend graph included for visualization, and users can scroll right to view more NFTs
+							<br>2. Trending NFTs page (bottom middle)
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Table structure to allow for easy eye-tracking to match statistics to NFTs, and makes it easier for components to be reordered according to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the filter category
+							<br>3. Personal profile 
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. User information laid out on the left with a grid-like structure for personal collection, as well as a mini-navbar above it to navigate to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;settings
+							<div class="gallery style1 medium lightbox onscroll-fade-in">
+
+								<article>
+									<a href="images/sketch3.jpg" class="image fit ">
+										<img src="images/sketch3.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 3</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<br> <h3><b>Design 4</b></h3>  Another alternative mobile design with different layouts for specific pages that focuses on only fundamental buttons.
+							<br>1. Home
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. 3 main features of the app laid out in home page for ease of use (with a summary of most important information on the containers for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quick scans)
+							<br>2. My collection
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Laid out only with the pictures, without titles/information - just for visual checks of NFTs in a user’s inventory
+							<br>3. Trending
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Similar to my collection layout, but including most important statistics in the box containers 
+							<br>4. Recent News
+							<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. Inspired layout by twitter, but this is essentially the ‘socials’ page for users to keep up with NFT news and see what people are discussing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;about it on social media. It filters the most relevant tweets about users’ interests in NFTs.
+							<br>
+							<br>
+
+							<div class="gallery style1 medium lightbox onscroll-fade-in">
+
+								<article>
+									<a href="images/sketch4.jpg" class="image fit ">
+										<img src="images/sketch4.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 4</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<br> <h3><b>Wireframes</b></h3>
+							From our sketches, we ultimately decided on the following design shown below. We wanted to emphasize simplicity allow users to easily see their own NFTs and those that they can buy and sell. We limited navigation to four tabs to keep the app simple and clean. 
+							<br>
+							<br>
+							<div class="gallery style1 medium lightbox onscroll-fade-in">
+
+								<article>
+									<a href="images/wireframe.jpeg" class="image fit ">
+										<img  id="wireframes" src="images/wireframe.jpeg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sketch 4</h3>
+										<p></p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+							</div>
+						
+						</div>
+				<!-- Three -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right" id="third">
+						<div class="content">
+							<h2>Interactive Prototype and Feedback</h2>
+							<p>We built a figma mockup of the wireframes (shown right) to bring to the studio critique. Overall, feedback was mostly positive with the main suggestions being differentiate the buy and sell pages, add an "add favorites" function, give users more flexibility to edit their profile, and our overall dark mode was hard to read. With this feedback, we redesigned the interface with more attractive colors to drown out the black background. On top of this we added an option to favorite a particular NFT, and gave users a better experience when viewing their own profile. The finished result can be found below.</p>
+							<ul class="actions stacked">
+								<li><a href="#user" class="button smooth-scroll-middle">Next</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img    id="crit"  src="images/crit.png" alt="" />
+						</div>
+					</section>
+
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="second">
+						<div class="content">
+							<h2>User Testing</h2>
+							<p>We asked users on UserTesting.com to complete a few tasks and give us feedback on our design. They were given the following introduction:
+								<br>
+								<br><i>You are an avid collector of NFTs (essentially unique virtual trading cards) looking to buy and sell NFTs. Instead of a mobile app, you will be using an interactive mockup on prototyping software to simulate the experience of using your phone. When the prototype loads in, click where you would be tapping your finger on a phone to use the interface. Buy and sell an NFT using the platform, and try to think aloud while using the interface. You will not need to enter information to use the platform, simply press “login” once at the sign-in screen.</i>
+								<br>
+								<br> Users were then asked to complete the following tasks:
+								<br><i>
+								<br>1. Favorite the Space Riders NFT collection
+								<br>2. Buy an individual NFT from the Space Riders NFT collection.
+								<br>3. View your own NFT collection
+								<br></i>
+								<br>
+								Overall, the prototype performed quite well in the user testing. The main issues with the prototype were with figma itself or the limited connections between screens. The users were highly successful in both favoriting the collection and buying an NFT. Two of the users struggled with finding the collection, though some of that issue came down to the figma. There were multiple suggestions to change the navigation bar at the bottom, and the existing testing issues were with finding the collection, so most of the improvements should be on that navbar. Tangibly, we could increase the font and icon sizes and move the collection tab into the profile section as suggested by users. See results on the right
+
+							</p>
+
+						</div>
+						<div class="image">
+							<img id="user" src="images/results.png" alt="" />
+						</div>
+					</section>
+
+						<div class="special" >
+							<br> <h3 id="final" ><b>Final Design</b></h3>
+							This is our final design! 
+
+						</div>
+
+						<article>
+
+							<div class="gifs">
+								<img class="gif" src="images/NFT-GIF-1.gif" alt="" />
+									<img class="gif" src="images/NFT-GIF-2.gif" alt="" />
+										<img class="gif" src="images/NFT-GIF-3.gif" alt="" />
+						</div>
+
+						
+						</article>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
